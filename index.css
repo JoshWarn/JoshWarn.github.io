@@ -120,28 +120,3 @@ body {
     margin: 45px 50px 50px 50px;
 }
 
-.hobby-thumbnail {
-    display: inline-block;
-    height: 256px;
-    border: 2px solid lightgray;
-}
-
-.hobby-content button {
-    font-family: "Montserrat";
-    font-weight: 700;
-    height: 50px;
-    width: 125px;
-    margin-top: 10px;
-    color: gray;
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid gray;
-    box-shadow: 0px 2px 6px 0px #000000A0;
-}
-
-.hobby-content button:hover {
-    color: black;
-    border: 3px solid rgb(119, 176, 223);
-    cursor: pointer;
-}
-
