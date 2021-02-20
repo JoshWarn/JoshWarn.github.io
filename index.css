@@ -110,13 +110,13 @@ body {
 }
 
 .hobby {
-    margin: 70px;
+    margin: 10px;
 }
 
 .hobby-content {
     display: inline-block;
     text-align: left;
     vertical-align: top;
-    margin: 45px 50px 50px 50px;
+    margin: 15px 50px 50px 50px;
 }
 
