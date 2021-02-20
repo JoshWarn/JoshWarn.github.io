@@ -2,7 +2,7 @@ body {
     text-align: center;
     font-family: "Montserrat";
     margin: 0px;
-    background-image: url("imgs/test.jpg");
+    /*background-image: url("imgs/test.jpg");*/
     background-size: 100%;
 }
 
@@ -56,3 +56,48 @@ body {
     border: 3px solid rgb(119, 176, 223);
     cursor: pointer;
 }
+
+.involvements {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px 2px black;
+    padding: 10px;
+    margin: 500px 50px 50px 50px;
+}
+
+.involvement {
+    margin: 70px;
+}
+
+.involvement-content {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    margin: 45px 50px 50px 50px;
+}
+
+.involvement-thumbnail {
+    display: inline-block;
+    height: 256px;
+    border: 2px solid lightgray;
+}
+
+.involvement-content button {
+    font-family: "Montserrat";
+    font-weight: 700;
+    height: 50px;
+    width: 125px;
+    margin-top: 10px;
+    color: gray;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 6px 0px #000000A0;
+}
+
+.involvement-content button:hover {
+    color: black;
+    border: 3px solid rgb(119, 176, 223);
+    cursor: pointer;
+}
+
