@@ -32,6 +32,13 @@ body {
     /*text-indent: 100px;*/
     margin: 45px 50px 50px 50px;
 }
+.project-content-centered {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    /*text-indent: 100px;*/
+    margin: 45px 50px 50px 500px;
+}
 
 .project-thumbnail {
     display: inline-block;
