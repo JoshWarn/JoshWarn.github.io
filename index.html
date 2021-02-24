@@ -40,12 +40,14 @@
                 <h3>Right-hand Truncatable Primes in Multiple Bases</h3>
                 <p>This calculates RHT Primes (eg. 3, 37, 3733, 37337 in b-10) in a branching fashion. 
                     Due to the large big O notation, I implemented fully asynchronous multithreading,
-                    redundant task claiming, as well as other optimizations. <br>
-                       Currently, the largest base that has been fully computed is b-87 with a digit-length of 53 
+                    redundant task claiming, as well as other optimizations.
+                </p>
+                <p>
+                    Currently, the largest base that has been fully computed is b-87 with a digit-length of 53 
                     - being approximatly 6.2*10^102. Due to the large size of the primes, determining primality can be slow even when 
                     using a probabilistic test such as Baillie-PSW. To negate this, I have written other methods
                     concerning individual digits - though they are only effective when the prime canidates are
-                    sufficiently large. <br>
+                    sufficiently large.
                 </p>
             </div>
         </div>
