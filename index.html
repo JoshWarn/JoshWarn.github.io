@@ -21,7 +21,7 @@
 
     <!-- Projects -->
     <div class="projects">
-        <h1>Projects:</h1>
+        <h1>Coding Projects:</h1>
         <!-- Project 1 -->
         <div class="project">
             <img class="project-thumbnail" src="https://i.imgur.com/Y6eHUPI.png">
@@ -36,8 +36,16 @@
         <div class="project">
             <img class="project-thumbnail" src="https://i.imgur.com/7iGAQeC.png">
             <div class="project-content">
-                <h3>Sample Project</h3>
-                <p>This is a cool project that does things</p>
+                <h3>Right-hand Truncatable Primes in Multiple Bases</h3>
+                <p>This calculates RHT Primes (eg. 3, 37, 3733, 37337 in b-10) in a branching fashion.  <br>
+                    Due to the large big O notation, I implemented fully asynchronous multithreading, <br> 
+                    redundant task claiming, as well as other optimizations. Currently, the largest base <br>
+                    that has been fully computed is b-87 with a digit-length of 53 - being approximatly 6.2*10^102. <br>
+                    Due to the large size of the primes, determining primality can be slow - even when <br>
+                    using a probabilistic test such as Baillie-PSW. Due to this, I have written other faster methods <br>
+                    concerning only individual digits - though they are only effective when the prime canidates are <br>
+                    sufficiently large. <br>
+                </p>
             </div>
         </div>
         <!-- Project 3 -->
