@@ -34,8 +34,8 @@ body {
 }
 .project-content-centered {
     display: inline-block;
-    text-align: left;
-    vertical-align: top;
+    /*text-align: left;*/
+    /*vertical-align: top;*/
     /*text-indent: 100px;*/
     
     /*margin: 40% 40% 40% 40%*/
