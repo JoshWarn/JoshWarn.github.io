@@ -1,8 +1,0 @@
-var quotes = [
-		'A small step towards a better platform!',
-		'Welcome to the least processor-taxing website!',
-		'A website so simple your microwave could run it!',
-]
-function newQuote() {
-	var randomNumber = Math.floor(Math.random() * (quotes.length));
-	document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
