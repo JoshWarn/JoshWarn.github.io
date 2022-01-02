@@ -363,8 +363,7 @@ a:link, a:visited, a:hover, a:active { color: white }
   <h3 style="text-align:left"> Plotted above are the segments for all primes below a hundred million. </h2>
   <h3 style="text-align:left"> </h2>
 	
-  <img class="center" src="Coding_RHTP_Length.png" align="left" width="40%">
-  <img class="center" src="Coding_RHTP_Occurances.png" align="right" width="40%">
+  <center><img class="center" src="Coding_RHTP_Both.png" align="center" width="80%"></center>
   <h2 style="text-align:center">Right-hand Truncatable Primes in Multiple Bases</h1>
   <h3 style="text-align:left"> This calculates RHT Primes (eg. 3, 37, 3733, 37337 in b-10) in a branching fashion. Due to the large Big O for bases, I implemented fully asynchronous multithreading, redundant task claiming, and various other optimizations. </h2>
   <h3 style="text-align:left"> Base 87 is the largest that has been calculated with the largest prime being 53 digits (6.2x10**102). Due to their large sizes, determining primality is slow even when using a probabilistic test such as Baillie-PSW. To negate this, I have written other methods concerning individual digits rather than the value of the entire number. </h2>
